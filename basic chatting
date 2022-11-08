@@ -1,0 +1,13 @@
+s = input()
+string1 = 'Hello'
+string2 = 'Hi'
+if s == string1 or s == string2:
+    print("Hello there! How are you?")
+else:
+    print("Invalid, sorry please repeat")
+s = input()
+string3 = 'I am good. How are you?'
+if s == string3:
+    print('That is great! How is the weather today?')
+else:
+    print('Sorry I did not get you')
